@@ -3,6 +3,7 @@ import Banner from "./components/Banner";
 import Navbar from "./components/Navbar";
 import Technologies from "./components/Technologies";
 import type { TechnologyType } from "./type";
+import Footer from "./components/Footer";
 
 
 
@@ -31,7 +32,7 @@ function App() {
 
 
       </main>
-
+      <Footer></Footer>
     </div>
   );
 }
