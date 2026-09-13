@@ -26,7 +26,7 @@ const Technologies = ({ devPromises }: TechnologiesProps) => {
 
                     Explore the{" "}
 
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-violet-600">
+                    <span className="bg-brand-gradient text-transparent bg-clip-text">
                         Technologies
                     </span>
 

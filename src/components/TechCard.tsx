@@ -93,7 +93,7 @@ const TechCard = ({ tech, selectedTech, setSelectedTech }: TechCardProps) => {
                     }`}
                 disabled={isSelected}
             >
-                {isSelected ? "Added to Stack" : "Add to Stack"}
+                {isSelected ? "✓ Added to Stack" : "Add to Stack"}
             </button>
 
         </div>

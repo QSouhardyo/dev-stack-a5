@@ -10,7 +10,7 @@ const Banner = () => {
                     Build Your Ideal
                 </h1>
 
-                <h1 className="bg-linear-to-r from-[#FF5722] via-[#D81B7E] to-[#7C3AED] bg-clip-text text-3xl font-bold text-transparent md:text-5xl lg:text-7xl">
+                <h1 className="bg-brand-gradient bg-clip-text text-3xl font-bold text-transparent md:text-5xl lg:text-7xl">
                     Development Stack
                 </h1>
 
@@ -21,7 +21,7 @@ const Banner = () => {
                 </p>
 
                 <div>
-                    <button className="btn mr-3 rounded-xl bg-linear-to-r from-[#F97316] to-[#EC4899] text-white">
+                    <button className="btn mr-3 rounded-xl bg-brand-gradient text-white">
                         Explore Technologies
                     </button>
 
