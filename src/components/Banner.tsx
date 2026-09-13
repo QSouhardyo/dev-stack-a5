@@ -25,7 +25,7 @@ const Banner = () => {
                         Explore Technologies
                     </button>
 
-                    <button className="btn rounded-xl">
+                    <button className="btn rounded-xl border-2 px-10">
                         Learn More
                     </button>
                 </div>
