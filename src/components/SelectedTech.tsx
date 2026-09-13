@@ -31,7 +31,7 @@ const SelectedTech = ({ selectedTech, setSelectedTech }: SelectedTechProps) => {
 
 
     return (
-        <div className="border border-gray-200 rounded-xl p-5 bg-white shadow-sm sticky top-24">
+        <div className="border border-gray-200 rounded-xl p-5 bg-white shadow-sm">
 
             {/* Heading */}
             <div className="flex items-center justify-between">

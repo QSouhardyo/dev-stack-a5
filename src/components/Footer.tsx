@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10 mt-16">
             <aside>
                 <img src={Logo} alt="" />
-                <p className="text-gray-500">
+                <p className="text-gray-500 lg:w-[80%]">
                     Curated tools, technologies, and resources for developers building
                     modern software.
                 </p>
