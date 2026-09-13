@@ -14,7 +14,7 @@ const Banner = () => {
                     Development Stack
                 </h1>
 
-                <p className="mt-4 mb-10 md:mt-8 lg:w-[80%]">
+                <p className="mt-4 mb-10 md:mt-8 lg:w-[80%] text-gray-500">
                     Explore frontend, backend, database, and tooling options,
                     compare them side by side, and put together the stack that fits your
                     next project.

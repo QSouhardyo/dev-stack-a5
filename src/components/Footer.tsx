@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10 mt-16">
             <aside>
                 <img src={Logo} alt="" />
-                <p>
+                <p className="text-gray-500">
                     Curated tools, technologies, and resources for developers building
                     modern software.
                 </p>
@@ -24,24 +24,24 @@ const Footer = () => {
                 </div>
             </aside>
             <nav>
-                <h6 className="footer-title">Services</h6>
-                <a className="link link-hover">Branding</a>
-                <a className="link link-hover">Design</a>
-                <a className="link link-hover">Marketing</a>
-                <a className="link link-hover">Advertisement</a>
+                <h6 className="text-black font-semibold">Services</h6>
+                <a className="link link-hover text-gray-500 ">Branding</a>
+                <a className="link link-hover text-gray-500">Design</a>
+                <a className="link link-hover text-gray-500">Marketing</a>
+                <a className="link link-hover text-gray-500">Advertisement</a>
             </nav>
             <nav>
-                <h6 className="footer-title">Company</h6>
-                <a className="link link-hover">About us</a>
-                <a className="link link-hover">Contact</a>
-                <a className="link link-hover">Jobs</a>
-                <a className="link link-hover">Press kit</a>
+                <h6 className="text-black font-semibold">Company</h6>
+                <a className="link link-hover text-gray-500">About us</a>
+                <a className="link link-hover text-gray-500">Contact</a>
+                <a className="link link-hover text-gray-500">Jobs</a>
+                <a className="link link-hover text-gray-500">Press kit</a>
             </nav>
             <nav>
-                <h6 className="footer-title">Legal</h6>
-                <a className="link link-hover">Terms of use</a>
-                <a className="link link-hover">Privacy policy</a>
-                <a className="link link-hover">Cookie policy</a>
+                <h6 className=" text-black font-semibold">Legal</h6>
+                <a className="link link-hover text-gray-500">Terms of use</a>
+                <a className="link link-hover text-gray-500">Privacy policy</a>
+                <a className="link link-hover text-gray-500">Cookie policy</a>
             </nav>
         </footer>
     );

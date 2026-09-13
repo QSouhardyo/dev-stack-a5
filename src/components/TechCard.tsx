@@ -76,9 +76,9 @@ const TechCard = ({ tech, selectedTech, setSelectedTech }: TechCardProps) => {
                 </span>
 
                 {/* Rating */}
-                <span className="flex items-center gap-1 text-yellow-500">
+                <span className="flex items-center gap-1 text-yellow-500 334155">
                     <FaStar size={12} />
-                    {tech.rating}
+                    <span className="text-[#334155]">  {tech.rating}</span>
                 </span>
 
             </div>
