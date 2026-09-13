@@ -1,6 +1,6 @@
 import { FaStar } from "react-icons/fa";
 import type { TechnologyType } from "../type";
-import { useState, type Dispatch, type SetStateAction } from "react";
+import { type Dispatch, type SetStateAction } from "react";
 import { Bounce, toast } from "react-toastify";
 
 export interface TechCardProps {
