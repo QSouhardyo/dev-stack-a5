@@ -2,6 +2,10 @@
 
 DevStack is a simple and interactive web application that helps developers explore different frontend, backend, database, and development tools. Users can view technology details and build their own development stack by selecting the technologies they want.
 
+## 🔗 Live Project
+
+**https://sage-jelly-aea37d.netlify.app/** 
+
 ## Technologies Used
 
 - React.js
@@ -49,4 +53,42 @@ Example: In the Stack Panel, if the stack is empty I show an empty message. If t
 - Child to Parent: A function is passed as a prop from parent to child. The child calls that function to send data back. Example: `onAdd={handleAddToStack}`
 
 ---
+## Dependencies
 
+The project uses the following main dependencies:
+
+| Package            | Purpose                              |
+|--------------------|--------------------------------------|
+| `react`            | UI library                           |
+| `react-dom`        | React DOM renderer                   |
+| `vite`             | Build tool & dev server              |
+| `tailwindcss`      | CSS framework                        |
+| `daisyui`          | Tailwind component library           |
+| `react-toastify`   | Toast notifications                  |
+
+Dev dependencies typically include:
+- `@vitejs/plugin-react`
+- `autoprefixer`
+- `postcss`
+- `eslint` (optional)
+
+
+## How to Run Locally
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm
+
+### Steps
+
+```bash
+# 1. Clone the repository
+git clone <repo-url>
+
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
+npm run dev
